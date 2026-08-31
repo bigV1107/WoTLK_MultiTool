@@ -39,7 +39,8 @@ a = Analysis(
         'pywinauto.application',
         'comtypes',
         'comtypes.client',
-        'pyautogui',           # ← 新增：convert_autotexture.py 用到
+        'pyautogui',
+        'dbcpy',               # ← 新增：csv_editor.py 用到
         'winreg',
         'winsound',
         'asyncio',
