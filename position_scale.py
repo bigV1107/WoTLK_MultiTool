@@ -34,7 +34,7 @@ def auto_fix_helm_offset(model_path: str):
         case "dwm":
             x_pos = 0
             y_pos = 0
-            z_pos = -0.218
+            z_pos = -0.180
         case "gnf":
             x_pos = -0.03
             y_pos = 0
@@ -43,6 +43,14 @@ def auto_fix_helm_offset(model_path: str):
             x_pos = -0.025
             y_pos = 0
             z_pos = -0.26
+        case "gof":
+            x_pos = -0.045
+            y_pos = 0
+            z_pos = -0.18
+        case "gom":
+            x_pos = -0.045
+            y_pos = 0
+            z_pos = -0.175              
         case "huf":
             x_pos = -0.08
             y_pos = 0
@@ -50,7 +58,7 @@ def auto_fix_helm_offset(model_path: str):
         case "hum":
             x_pos = -0.07
             y_pos = 0
-            z_pos = -0.215
+            z_pos = -0.215          
         case "nif":
             x_pos = -0.06
             y_pos = 0
@@ -62,11 +70,11 @@ def auto_fix_helm_offset(model_path: str):
         case "orf":
             x_pos = -0.07
             y_pos = 0
-            z_pos = -0.17
+            z_pos = -0.175
         case "orm":
             x_pos = -0.15
             y_pos = 0
-            z_pos = -0.18
+            z_pos = -0.19
         case "scf":
             x_pos = -0.01
             y_pos = 0
