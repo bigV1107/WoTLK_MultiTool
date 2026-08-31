@@ -1,4 +1,4 @@
-# WoTLK_MultiTool
+# HelmOffsetTool
 头盔移动
 # 1. 先找有没有现成的控制骨骼（CRC == 987654321）
 control_bone_id = get_control_bone_id(model_path)
